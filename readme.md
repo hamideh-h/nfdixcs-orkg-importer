@@ -5,8 +5,8 @@ the **Open Research Knowledge Graph (ORKG)** using the template:
 
 **R1563436 – NFDIxCS Versioning Schema**
 
-This project lets you take JSON exports from your NFDIxCS pipelines and automatically create  
-proper ORKG resources that follow the exact versioning model based on DataCite and NFDIxCS guidelines.
+This project lets you take JSON exports from your Software / research data metadata and automatically create  
+proper ORKG resources that follow the exact versioning model based on NFDIxCS_versioning_schema (https://orkg.org/templates/R1563436).
 
 ---
 
