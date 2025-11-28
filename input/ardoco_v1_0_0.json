@@ -1,0 +1,62 @@
+{
+  "records": [
+    {
+      "label": "ArDoCo/Core: v1.0.0 (Zenodo)",
+
+      "identifier": "https://doi.org/10.5281/zenodo.10796526",
+
+      "concept_identifier": null,
+
+      "version": "v1.0.0",
+
+      "relations": [
+        "IsSupplementTo: https://github.com/ArDoCo/Core/tree/v1.0.0"
+      ],
+
+      "provenance_support": "Full changelog: https://github.com/ArDoCo/Core/compare/v0.40.0...v1.0.0",
+
+      "date_metadata": "2024-03-08",
+
+      "contributor_roles": [
+        {
+          "name": "Jan Keim",
+          "role": "Software contributor"
+        },
+        {
+          "name": "Dominik Fuchß",
+          "role": "Software contributor",
+          "affiliation": "KIT @kit-sdq"
+        },
+        {
+          "name": "actions-user",
+          "role": "Automation / CI",
+          "affiliation": "@actions"
+        },
+        {
+          "name": "Kevin Werber",
+          "role": "Software contributor"
+        },
+        {
+          "name": "Sophie Corallo",
+          "role": "Software contributor"
+        },
+        {
+          "name": "Laxraa",
+          "role": "Software contributor"
+        },
+        {
+          "name": "maGitty",
+          "role": "Software contributor"
+        },
+        {
+          "name": "Fabian R",
+          "role": "Software contributor"
+        },
+        {
+          "name": "Jean Patrick Mathes",
+          "role": "Software contributor"
+        }
+      ]
+    }
+  ]
+}
