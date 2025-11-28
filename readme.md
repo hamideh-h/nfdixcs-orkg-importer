@@ -20,7 +20,7 @@ It ensures:
 - The ORKG resource uses the correct template: `R1563436`
 - Required fields (identifier, contributor roles) are present
 - Optional fields (concept DOI, version string, relations, provenance, dates) are mapped correctly
-- Contributor roles are created and linked properly (via P183174), even though the Python template API does not handle that field internally
+- Contributor roles are created and linked properly (via P183174), 
 
 In other words:  
 **You feed it a JSON file → it creates fully structured NFDIxCS metadata in ORKG automatically.**
@@ -30,7 +30,7 @@ In other words:
 # 2. What is the NFDIxCS Versioning Schema in ORKG?
 
 ORKG uses *templates* to impose semantic structure.  
-Template **R1563436** defines how to describe **a specific version** of a research object.
+Template **R1563436** defines how to describe **a specific version** of a research object and relate it to other versions and resources.
 
 Its field set (property shapes) is:
 
@@ -59,7 +59,7 @@ The importer writes metadata into ORKG **exactly according to this schema**.
 
 # 3. Why this importer exists
 
-In the NFDIxCS project you have:
+we can 
 
 - versioned datasets/software/workflows
 - internal logs and provenance metadata
@@ -67,13 +67,7 @@ In the NFDIxCS project you have:
 - DOIs and concept DOIs
 - version-in-time / version-in-space metadata
 
-All of this must be **published into ORKG**, but doing that manually:
-
-- is error-prone  
-- does not scale  
-- breaks semantic consistency  
-- takes too much time  
-
+**publish into ORKG**, 
 This importer solves that:
 
 ✔ Reads structured JSON  
@@ -86,4 +80,3 @@ This importer solves that:
 ---
 
 # 4. Project structure
-
