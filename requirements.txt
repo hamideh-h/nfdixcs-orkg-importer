@@ -1,0 +1,11 @@
+[project]
+name = "nfdixcs-orkg-importer"
+version = "0.1.0"
+description = "Importer for NFDIxCS data into ORKG (template R1563436)"
+requires-python = ">=3.10"
+
+dependencies = [
+  "orkg>=1.1.0",
+  "pydantic>=2.0.0",
+  "pyyaml>=6.0",
+]

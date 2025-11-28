@@ -1,0 +1,41 @@
+# Mapping for ORKG Template R1563436
+# Template label: NFDIxCS Versioning Schema
+# Template function: nfdixcs_versioning_schema
+
+template_id: "R1563436"
+template_function: "nfdixcs_versioning_schema"
+
+fields:
+
+  # -----------------------------
+  # REQUIRED fields (cardinality 1..1 or 1..∞)
+  # -----------------------------
+
+  # Identifier (P37134)
+  identifier: identifier
+
+  # Contributor Roles (P183174)
+  # NOTE: Must be implemented manually in importer after save().
+  # The template function ignores this kwarg, but importer will use it.
+  contributor_roles: contributor_roles
+
+
+  # -----------------------------
+  # OPTIONAL fields (cardinality 0..1 or 0..∞)
+  # -----------------------------
+
+  # Concept Identifier (P183159)
+  concept_identifier: concept_identifier
+
+  # version (Version class)
+  version: version
+
+  # Relations (P183160)
+  relations: relations
+
+  # provenance support (P105031)
+  provenance_support: provenance_support
+
+  # date metadata (P91006)
+  date_metadata: date_metadata
+
